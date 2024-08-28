@@ -1,0 +1,78 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    background: url('./image/cricket.jpg');
+    color: red;
+    
+}
+h1 {
+    text-align: center;
+    background-color:green;
+    color: #fff;
+    padding: 10px;
+}
+
+
+h2 {
+    background-color:yellowgreen;
+    color: #fff;
+    padding: 5px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+#add-player-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+
+#batsman-table, #bowler-table, #allrounder-table {
+    background-color: #fff;
+}
+
+
+h3 {
+    margin-top: 20px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Cricket Player Classification</title>
+</head>
+<body>
+  <div class="heading">
+  <h1>Cricket Player Classification</h1>
+</div>
+
+  
+<div class="add">
+  <h2>Add Player</h2>
+</div>
+  
+<div class="form">
+   <form class="f">
+    <label for="name">Player Name:</label>
+    <input type="text" id="name" required>
+
+    <label for="runs">Runs:</label>
+    <input type="number" id="runs" required>
+
+    <label for="wickets">Wickets:</label>
+    <input type="number" id="wickets" required>
+
+    <button type="button" id="add-player-button">Add Player</button>
+  </form>
+</div>
+ 
+<div class="batsman">
+  <h2>Batsman Table</h2>
+  <table id="batsman-table"></table>
+</div>
+<div class="bowler">
+  <h2>Bowler Table</h2>
+  <table id="bowler-table"></table>
+</div>
+<div class="allrounder">  
+  <h2>Allrounder Table</h2>
+  <table id="allrounder-table"></table>
+<div/>
+
+  <script src="index.js"></script>
+</body>
+</html>
